@@ -13,4 +13,5 @@ class MyFirstTest extends Simulation{
   setUp(
     scn.inject(atOnceUsers(users =1))
   ).protocols(httpConf)
+
 }
